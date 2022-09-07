@@ -1,0 +1,66 @@
+.header__inner {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    display: flex;
+}
+
+.logo__text {
+    font-family: "Oswald";
+    margin-left: 12px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--black);
+    text-align: right;
+}
+
+.search-form {
+    width: 100%;
+    max-width: 361px;
+    height: 45px;
+    border: 1px solid var(--grey);
+}
+.search-form__input {
+    width: 100%;
+    max-width: 320px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+.search-form__button {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+
+.search-form__button::after {
+    content: url(../../images/header/button.svg);
+    position: absolute;
+    top: -5px;
+    left: 0;
+}
+
+.registration__button {
+    width: 165px;
+    height: 45px;
+    margin-left: 30px;
+    background: var(--white);
+    color: var(--green);
+    border: 1px solid var(--green);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: color 0.3s linear;
+}
+.registration__button:hover {
+    background: var(--green);
+    color: var(--white);
+}
+

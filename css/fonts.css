@@ -1,0 +1,30 @@
+
+
+@font-face {
+    font-family: 'Inter';
+    font-weight: 400;
+    src: url('../fonts/inter/static/Inter-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-weight: 500;
+    src: url('../fonts/inter/static/Inter-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-weight: 600;
+    src: url('../fonts/Inter/static/Inter-SemiBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Rubik';
+    font-weight: 400;
+    src: url('../fonts/Rubik/static/Rubik-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Oswald';
+    font-weight: 400;
+    src: url('../fonts/Oswald/static/Oswald-Regular.ttf') format('truetype');
+}
+
