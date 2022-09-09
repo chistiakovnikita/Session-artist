@@ -1,7 +1,11 @@
 .section {
-    background-image: url(../../images/section/section__bg.jpg);
-    background-repeat: no-repeat;
-    background-position: right 59% top 4%;
+   
+   
+    background: url(../../images/section/background.svg) 0% 37% no-repeat,
+                url(../../images/section/section__bg.jpg) 42% 4% no-repeat;
+    background-size: cover, auto;
+   
+               
 }
 
 .categories__title {
@@ -11,7 +15,7 @@
     line-height: 80px;
     text-align: center;
     color: var(--black);
-    padding: 90px 0 25px 0;
+    padding: 74px 0 25px 0;
 }
 
 .categories__subtitle {
@@ -54,6 +58,7 @@
 .categories__content {
     display: flex;
     gap: 30px;
+    padding-bottom: 100px;
 }
 
 .categories__image {

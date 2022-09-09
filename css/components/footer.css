@@ -1,0 +1,35 @@
+.footer__iner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 33px;
+}
+
+.footer__col {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.footer__text {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--black);
+    transition: color 0.3s linear;
+}
+
+.footer__text:hover {
+    color: var(--green);
+}
+
+.footer__copyright {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--black);
+    text-align: center;
+}
