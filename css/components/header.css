@@ -23,6 +23,7 @@
     max-width: 361px;
     height: 45px;
     border: 1px solid var(--grey);
+    margin-left: 20px;
 }
 .search-form__input {
     width: 100%;
@@ -48,7 +49,7 @@
     left: 0;
 }
 
-.registration__button {
+.registration__button-login, .registration__button-register {
     width: 165px;
     height: 45px;
     margin-left: 30px;
@@ -59,7 +60,11 @@
     cursor: pointer;
     transition: color 0.3s linear;
 }
-.registration__button:hover {
+.registration__button-login:hover{
+    background: var(--green);
+    color: var(--white);
+}
+.registration__button-register:hover{
     background: var(--green);
     color: var(--white);
 }

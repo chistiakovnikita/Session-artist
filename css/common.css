@@ -9,7 +9,7 @@ a{
 }
 
 .overlay{
-    display: block;
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
@@ -23,9 +23,11 @@ a{
 }
 
 .modal{
+display: none;
 position: absolute;
 padding: 30px 30px 30px 40px;
 background: var(--white);
+max-width: 100%;
 width: 556px;
 height: 371px;
 left: 50%;
@@ -33,4 +35,27 @@ top: 70%;
 transform: translate(-50%, -50%);
 border-radius: 5px;
 z-index: 101;
+}
+
+.modal--active{
+    display: block;
+}
+
+.modal-login{
+    display: none;
+    position: absolute;
+    padding: 30px 30px 30px 40px;
+    background: var(--white);
+    max-width: 100%;
+    width: 556px;
+    height: 316px;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    z-index: 101;
+}
+
+.modal-login--active{
+    display: block;
 }
