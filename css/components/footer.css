@@ -33,3 +33,46 @@
     color: var(--black);
     text-align: center;
 }
+
+@media screen and (max-width: 865px) {
+    .footer__logo{
+        padding: 0 5px;
+    }
+
+    .footer__col{
+        gap: 25px;
+    }
+}
+@media screen and (max-width: 740px) {
+    .footer__logo{
+        display: none;
+    }
+    .footer__iner{
+        justify-content: space-around;
+    }
+
+   
+   
+   
+}
+
+@media screen and (max-width: 580px) {
+
+    .footer__link{
+        padding: 5px 5px;
+    }
+    
+    .footer__col{
+        gap: 10px;
+    }
+    .footer__iner{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .footer__text {
+        font-size: 15px;
+    }
+}

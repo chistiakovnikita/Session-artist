@@ -38,3 +38,18 @@
 .icon-facebook:hover {
     transform: scale(1.2);
 }
+
+
+@media screen and (max-width: 460px) {
+   
+    .social__title{
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 0px;
+    }
+
+    .social__block {
+        margin-bottom: 35px;
+    }
+
+}
